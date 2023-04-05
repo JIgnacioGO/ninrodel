@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    background-image: url(/Assets/img/fondo.jpg);
+    background-repeat: repeat;
+    background-size: 45%;
+    width: 100%;
+}
+
+header img {
+    width: 100px;
+    margin: 1% 0 0 1%;
+}
+
+header nav ul {
+    color: rgba(255, 255, 255, 0.5);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul .link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+main h1 {
+    text-align: center;
+    color: rgb(122, 119, 130);
+    font-size: xxx-large;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h2 span {
+    border-top: 3px solid black;
+}
+
+#productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#productos>section {
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#productos img {
+    width: 100%;
+}
+
+#comuniquemonos {
+    background-color: #070707;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 33%;
+    margin: auto;
+}
+
+#comuniquemonos h2 {
+    margin-bottom: 0%;
+}
+
+#reserva {
+    background-color: #070707;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 33%;
+    margin: auto auto 20px auto;
+}
+
+#reserva h2 {
+    margin-bottom: 0%;
+}
+
+footer {
+    background-color: black;
+    background-image: url(/Assets/img/fondo.jpg);
+    height: 250px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
